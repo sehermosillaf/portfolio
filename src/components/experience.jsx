@@ -3,16 +3,16 @@ import { ExperienceItem } from "../components/experienceItem";
 export const Experience = () => {
   const EXPERIENCIE = [
     {
-      date: "Actualmente...",
-      title: "Analista de Calidad de Software",
-      company: "ACL - Externo Tarjetas Cencosud Scotiabank",
+      date: "Actualidad",
+      title: "Analista QA - Automatizador",
+      company: "ACLTI",
       description:
         "Responsable de la calidad de software de la plataforma de Tarjetas Cencosud Scotiabank. Apoyo en la implementación de pruebas automatizadas para identificar estado de flujos y realizar regresiones.",
       link: "https://www.aclti.com/es/",
     },
     {
       date: "Actualidad",
-      title: "Desarrollador de Software",
+      title: "Desarrollador",
       company: "Proyectos Personales",
       description:
         "Desarrollo de software para proyectos personales. Implementación de tecnologías como React, Spring boot, Java, Scrapy (Python) , entre otros.",
@@ -20,7 +20,7 @@ export const Experience = () => {
     },
   ];
   return (
-    <ol className="relative mt-16">
+    <ol className="relative mt-16" id="experience">
       {EXPERIENCIE.map((experiencie, index) => (
         <li key={index}>
           <ExperienceItem {...experiencie} />

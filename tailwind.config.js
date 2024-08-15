@@ -7,7 +7,11 @@ export default {
       sans: ["Inter", "sans-serif"],
       mono: ["Menlo", "monospace"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'dark-gray': '#393E46',
+      },
+    },
   },
   plugins: [],
 }

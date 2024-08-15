@@ -8,7 +8,7 @@ export const Header = () => {
     {
       title: "Proyectos",
       label: "proyectos",
-      url: "/proyectos",
+      url: "#proyectos",
     },
     {
       title: "Sobre mi",
@@ -27,7 +27,7 @@ export const Header = () => {
         <ul className="flex">
           {headerItems.map((item, index) => (
             <li key={index} className="mx-4">
-              <a href={item.url} className="font-medium uppercase tracking-wider">
+              <a href={item.url} className="font-semibold text-sm	 uppercase tracking-wider hover:text-sky-600 transition ease-in-out delay-150 duration-75">
                 {item.title}
               </a>
             </li>
